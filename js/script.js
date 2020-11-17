@@ -87,3 +87,11 @@ for (let elem of likeCard) {
       
     });  
 }
+
+//бургер
+let burgerMenu = document.querySelector('.burger');
+let menu = document.querySelector('.menu');
+
+burgerMenu.addEventListener('click', function() {
+    menu.classList.toggle('show');
+});
